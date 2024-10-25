@@ -106,3 +106,30 @@ donc verticales (en haut et en bas)
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.container {
+  margin: auto;
+  max-width: 1000px;
+}
+
+.chip {
+  width: 30px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+.chip-brown {
+  background: #8c5e24;
+}
+
+.chip-purple {
+  background: #be418c;
+}
+
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
