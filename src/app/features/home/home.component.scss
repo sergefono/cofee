@@ -1,5 +1,5 @@
 .vp {
-  height: 500px;
+  min-height: 500px;
   background: url("/assets/images/cafe1.jpg") center center;
   background-size: cover;
   text-align: center;
@@ -7,6 +7,7 @@
 
 .vp-content {
   max-width: 700px;
+  padding: 20px;
   padding-top: 100px;
   color: white;
   display: block;
@@ -20,7 +21,7 @@
   background: black;
 }
 .vp-content h1 {
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 .vp-content p {
@@ -41,7 +42,7 @@ p {
 
 .features {
   overflow: auto;
-  padding: 100px 0px 100px 0px;
+  padding: 100px 20px 100px 20px;
   text-align: center;
 }
 
@@ -51,6 +52,21 @@ p {
 }
 
 .reservation {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 20px 100px 20px;
   text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .vp-content {
+    padding-top: 70px;
+  }
+  .vp-content h1 {
+    font-size: 2rem;
+  }
+
+  .feature {
+    float: none;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }

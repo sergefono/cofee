@@ -14,3 +14,27 @@
   float: right;
   width: 50%;
 }
+
+@media only screen and (max-width: 500px) {
+  .trouver {
+    padding: 80px 20px 50px 20px;
+    overflow: auto;
+    min-height: 100vh;
+    //text-align: center;
+  }
+
+  .trouver-img {
+    float: none;
+    width: 80%;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    //centrer l'image
+    margin: auto;
+    display: block;
+  }
+  .trouver-text {
+    float: none;
+    width: 100%;
+  }
+}
